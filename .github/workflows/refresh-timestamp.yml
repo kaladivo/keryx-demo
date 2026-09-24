@@ -1,0 +1,54 @@
+name: Refresh TUF timestamp
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: tuf-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - id: pub
+        uses: actions/cache@v6
+        with:
+          path: ~/go/bin/pub
+          key: pub-${{ runner.os }}-1f6871183a125f356fe784794af326a82ee0ddf1
+      - if: steps.pub.outputs.cache-hit != 'true'
+        uses: actions/setup-go@v7
+        with:
+          go-version: '1.26'
+      - if: steps.pub.outputs.cache-hit != 'true'
+        run: go install github.com/v1b3coder/keryx/sdk/cmd/pub@1f6871183a125f356fe784794af326a82ee0ddf1
+      - name: Write the ops keystore
+        env:
+          OPS_KEY: ${{ secrets.KERYX_OPS_KEY }}
+        run: |
+          echo "::add-mask::$OPS_KEY"
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s' "$OPS_KEY" | base64 -d > "$RUNNER_TEMP/keys/ops.json"
+      - name: Refresh timestamp and validate
+        run: |
+          "$HOME/go/bin/pub" refresh-timestamp --expires 48h \
+            --repo keryx --anchor .well-known/keryx --keystore "$RUNNER_TEMP/keys"
+          "$HOME/go/bin/pub" validate --repo keryx --anchor .well-known/keryx
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add keryx/timestamp.json
+          git commit -m "chore: refresh timestamp"
+          git push
+      - name: Deploy the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml

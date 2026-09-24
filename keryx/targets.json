@@ -1,0 +1,50 @@
+{
+	"signatures": [
+		{
+			"keyid": "5e37a2ac731efd42e727e4ec2e242bc01c7e1ba2668025ebf1fc87da99e50fd0",
+			"sig": "2262663d64b146b4368cba9fe474b9d05801fa7c010e84d7eed13891710252e9c7bf69038e3987b842289261539bdcd7df7b563a0aae3e662c4d5c994ca5c10d"
+		}
+	],
+	"signed": {
+		"_type": "targets",
+		"custom": {
+			"channels": {
+				"news": {
+					"description": "News from DaveFrajer",
+					"display_name": "News"
+				}
+			},
+			"company_name": "DaveFrajer",
+			"private_feed_patterns": []
+		},
+		"delegations": {
+			"keys": {
+				"5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede": {
+					"keytype": "ed25519",
+					"keyval": {
+						"public": "5b795ea51d119b34d661a4db0701843a705ebb21c793b2af18337126442d2c77"
+					},
+					"name": "news",
+					"scheme": "ed25519"
+				}
+			},
+			"roles": [
+				{
+					"keyids": [
+						"5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede"
+					],
+					"name": "channels.news",
+					"paths": [
+						"channels/news/*"
+					],
+					"terminating": true,
+					"threshold": 1
+				}
+			]
+		},
+		"expires": "2027-09-24T11:34:00Z",
+		"spec_version": "1.0.31",
+		"targets": {},
+		"version": 2
+	}
+}
