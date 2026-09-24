@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "981f15d51f241b50d4e79779575fb814c524bd3e6510ba7f1e4b711d2df7e3cf1d62ced09053b40ea2d25022e2d052a144eade3bcafaa1a9462672a516ba0f0a"
+			"sig": "f461d3652e611da927e081675120604322dc76cb69897ec6060abeac713e6e2c51164e0a4a5cbc5e4c473bb7545b37d7b60df18253c944f913df08adf95e7101"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-23T12:54:38Z",
+		"expires": "2027-03-23T13:11:50Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -26,6 +26,12 @@
 				},
 				"length": 150288
 			},
+			"channels/news/qa-retest-rich-20260924.json": {
+				"hashes": {
+					"sha256": "dc93227967f8a9e8cc0209d9351f6e7d79be3247aabcb0c370a5f7f695f9ff48"
+				},
+				"length": 26236
+			},
 			"channels/news/test.json": {
 				"hashes": {
 					"sha256": "20a9227cbfd6dac8c9a98acce84baedb467cef95aea33bef098d7e484b8468b1"
@@ -39,6 +45,6 @@
 				"length": 548
 			}
 		},
-		"version": 13
+		"version": 14
 	}
 }
