@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "96cab9e0af9cba8911bdb7a1064a8eb1b7c119d97701f85eaee96d1ac95fbd153459bbf0390579c383bc039377a5391a00c009d7eee84797a4b8713d5e1c2a00"
+			"sig": "cea1962f630a95b02993881049f1042d59923e3ddf9ff7ca15762cfba66f7ba1937adf5c733033a8ebccd39529c1a0e9650cb9b072a0b7e1b3c4766f8ac2f104"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-23T12:39:18Z",
+		"expires": "2027-03-23T12:39:22Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -26,12 +26,6 @@
 				},
 				"length": 150288
 			},
-			"channels/news/qa-notification.json": {
-				"hashes": {
-					"sha256": "a36cdc196c2da2e41184723cdfc0f13a9c83b8a3a387d5a7611a0975c4aabca0"
-				},
-				"length": 656
-			},
 			"channels/news/qa-test-prilis-zlutoucky-kun.json": {
 				"hashes": {
 					"sha256": "072c4f2832efa2bafab63080ec21564b2a7cfe3bd071f3a56494980b9f8bfbb8"
@@ -45,6 +39,6 @@
 				"length": 548
 			}
 		},
-		"version": 10
+		"version": 11
 	}
 }
