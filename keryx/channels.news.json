@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "1a9a81996aab0c7dde5565da5eb0820747df63fda1504b956295d67015cc71a8d29645973bab6e47eb19a2e8de0dcf1c8a3403c455d0f74dcf369adcac261f02"
+			"sig": "96cab9e0af9cba8911bdb7a1064a8eb1b7c119d97701f85eaee96d1ac95fbd153459bbf0390579c383bc039377a5391a00c009d7eee84797a4b8713d5e1c2a00"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-23T12:37:52Z",
+		"expires": "2027-03-23T12:39:18Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -25,12 +25,6 @@
 					"sha256": "02d9e97f8619a2596ad213af7a5579a02e0dd2c966328ca93be018c11e42238c"
 				},
 				"length": 150288
-			},
-			"channels/news/qa-concurrency.json": {
-				"hashes": {
-					"sha256": "a7450798be444ca7ba4967b7b78e1f8175901fc8a9b31b41fd601128038d1833"
-				},
-				"length": 635
 			},
 			"channels/news/qa-notification.json": {
 				"hashes": {
@@ -51,6 +45,6 @@
 				"length": 548
 			}
 		},
-		"version": 9
+		"version": 10
 	}
 }
