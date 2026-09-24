@@ -1,0 +1,17 @@
+{
+  "content_html": "<p>Hey, let's goo!</p>",
+  "date_published": "2026-09-24T11:36:31Z",
+  "id": "hey-lets-goo",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
+      "sig": "CnUavmlkeWg8_RVrhpb3xiNYz2G4-0L_tkFWCQDaGOuXx3YNLbPXIhZoDkXWEICqDhys46WdiJvdMQBKAtuUDw"
+    },
+    {
+      "keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
+      "sig": "CnUavmlkeWg8_RVrhpb3xiNYz2G4-0L_tkFWCQDaGOuXx3YNLbPXIhZoDkXWEICqDhys46WdiJvdMQBKAtuUDw"
+    }
+  ],
+  "title": "Hey, let's goo!"
+}
