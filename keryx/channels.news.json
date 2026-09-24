@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "d49e1eea2917b05bf11f219f9af5f2299a4a2090b0c611c3f4e2e1a708e99921212d29c2ccb0b254b92ca884aa612f29c0543cb78c288b1974cbb570b2c01005"
+			"sig": "981f15d51f241b50d4e79779575fb814c524bd3e6510ba7f1e4b711d2df7e3cf1d62ced09053b40ea2d25022e2d052a144eade3bcafaa1a9462672a516ba0f0a"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-23T12:39:25Z",
+		"expires": "2027-03-23T12:54:38Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -26,6 +26,12 @@
 				},
 				"length": 150288
 			},
+			"channels/news/test.json": {
+				"hashes": {
+					"sha256": "20a9227cbfd6dac8c9a98acce84baedb467cef95aea33bef098d7e484b8468b1"
+				},
+				"length": 8788
+			},
 			"channels/news/yoyo.json": {
 				"hashes": {
 					"sha256": "0c369e1b3cb802242b045b5850262f7b0517f9da276af0583ff837156aef5e9b"
@@ -33,6 +39,6 @@
 				"length": 548
 			}
 		},
-		"version": 12
+		"version": 13
 	}
 }
