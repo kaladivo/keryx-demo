@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "ec4d80fe40d3b00570b2986d12711fd89cea7bd0148d255cb92a79db80c4ef8b261435d262535054477293ecf99de2b3722a87aa720b573c53a74f4325e63803"
+			"sig": "f50347381b82d2f3b4479d9e550d48ae29e3638ae1c917c884ad1895c3701f34761c27c13b9655de075c77cc4d86ae6ccfc26a1267373e2c0b6ee8149ec7650c"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-23T13:15:30Z",
+		"expires": "2027-03-23T14:05:42Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -26,6 +26,12 @@
 				},
 				"length": 150288
 			},
+			"channels/news/qa-evolu-rich-20260924.json": {
+				"hashes": {
+					"sha256": "a4b215b4610ec6351064a0242e2df564573e3bc871e310b88ffdf62adad4be55"
+				},
+				"length": 26152
+			},
 			"channels/news/test.json": {
 				"hashes": {
 					"sha256": "20a9227cbfd6dac8c9a98acce84baedb467cef95aea33bef098d7e484b8468b1"
@@ -39,6 +45,6 @@
 				"length": 548
 			}
 		},
-		"version": 16
+		"version": 17
 	}
 }

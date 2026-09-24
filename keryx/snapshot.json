@@ -2,19 +2,19 @@
 	"signatures": [
 		{
 			"keyid": "ad7e5cbe32b8d132c78e729c8d43e21213ac01bec098bfdf850d9a4d84de39df",
-			"sig": "192855fb1f3309a409923e63b39c8781d251ffb1ebd784e95fc899df9bab41865707634a7e70bd816696c964d5e5a3424ca78fb1de1b46ea63df40ed72702902"
+			"sig": "4f290134059befe7bec4f5c54a93659ae844d0ae623a11558343c9c5a7669b2c1561f097dd445056160302a5293094b682e1dfdc2eada34bcf1fa27e7af59c03"
 		}
 	],
 	"signed": {
 		"_type": "snapshot",
-		"expires": "2026-10-24T13:15:30Z",
+		"expires": "2026-10-24T14:05:42Z",
 		"meta": {
 			"channels.news.json": {
 				"hashes": {
-					"sha256": "5546affc03ac694cb421da47fb0e854f8886768f6efe9b89bd73cceb82e910ba"
+					"sha256": "9d9cc4c9327050637254fd4808440c8d80765871ef711e421eaba8f44322719f"
 				},
-				"length": 1105,
-				"version": 16
+				"length": 1286,
+				"version": 17
 			},
 			"targets.json": {
 				"hashes": {
@@ -25,6 +25,6 @@
 			}
 		},
 		"spec_version": "1.0.31",
-		"version": 20
+		"version": 21
 	}
 }
