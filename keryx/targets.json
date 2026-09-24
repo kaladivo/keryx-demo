@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5e37a2ac731efd42e727e4ec2e242bc01c7e1ba2668025ebf1fc87da99e50fd0",
-			"sig": "2262663d64b146b4368cba9fe474b9d05801fa7c010e84d7eed13891710252e9c7bf69038e3987b842289261539bdcd7df7b563a0aae3e662c4d5c994ca5c10d"
+			"sig": "91b00663b83cd725a369bf5b45fa6656b496f955bec052d3f6a536ec4c3da8ea6f9a970fcfa7abc9d6bc239526dac22aa34cd2be0217064eb5b82365f8abd306"
 		}
 	],
 	"signed": {
@@ -15,6 +15,8 @@
 				}
 			},
 			"company_name": "DaveFrajer",
+			"logo": "https://keryx.roguedave.codes/assets/dave-logo.png",
+			"logo_sha256": "59bd5596bdb8245d4ea5e5ba1d2e133c60b5050b9e2432a35338dbb3bf75035e",
 			"private_feed_patterns": []
 		},
 		"delegations": {
@@ -42,9 +44,9 @@
 				}
 			]
 		},
-		"expires": "2027-09-24T11:34:00Z",
+		"expires": "2027-09-24T11:41:52Z",
 		"spec_version": "1.0.31",
 		"targets": {},
-		"version": 2
+		"version": 3
 	}
 }
