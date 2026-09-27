@@ -1,0 +1,17 @@
+{
+  "content_html": "<p>Test notif! </p>",
+  "date_published": "2026-09-24T14:03:21Z",
+  "id": "test-notif",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
+      "sig": "cDZZC_WA3cpt14Q54anPrbhud7jcT2eC5CxhQm8T5TRvt5YaKgP_k9MekoLTLDR6TOgRVLB1vNSbmy41Hi5XDg"
+    },
+    {
+      "keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
+      "sig": "cDZZC_WA3cpt14Q54anPrbhud7jcT2eC5CxhQm8T5TRvt5YaKgP_k9MekoLTLDR6TOgRVLB1vNSbmy41Hi5XDg"
+    }
+  ],
+  "title": "Test"
+}
