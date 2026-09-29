@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "5f1170329631924e933c0bb2f49dee7f9b3047985642c6e48a117c9db0686ede",
-			"sig": "0d9ee53cd4a261c793314883d3869f3a9072490db2e11d617cb9b8502d910997305ea410efbc595944a570d27b93fdb53d1329767152d9bd4323c267e0b7530d"
+			"sig": "f5bbac47ba79bdbcdc91d7a94626942af6114c03ed23161a50993b7b4f8485310e9d7b43025f51f7fe5f710a8ef5c645d9ca976e81a4a2ea4a777737ed1c7f00"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-26T21:01:40Z",
+		"expires": "2027-03-28T09:25:25Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/hey-lets-goo.json": {
@@ -32,6 +32,12 @@
 				},
 				"length": 26152
 			},
+			"channels/news/test-demo-pro-sama.json": {
+				"hashes": {
+					"sha256": "a37d5710f15dca7498af925aad5dff8656618f4f10d13b26b7b9cdf655b634cc"
+				},
+				"length": 574
+			},
 			"channels/news/test-notif.json": {
 				"hashes": {
 					"sha256": "c29a7e0b1cb0a9ef445630d5c3197667064ba5b301622cad42a94ed37e893b5e"
@@ -51,6 +57,6 @@
 				"length": 548
 			}
 		},
-		"version": 18
+		"version": 19
 	}
 }
